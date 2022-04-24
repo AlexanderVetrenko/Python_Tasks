@@ -13,8 +13,9 @@ def String_Min_and_Max(str):
             min = list1[i]
         if list1[i]>max:
             max = list1[i]
-    print(f'Минимум равен {min}, максимум равен {max}')
+    return min, max
+    #print(f'Минимум равен {min}, максимум равен {max}')
   
 
 a = input('Введите строку, состоящую из наборов чисел. В качестве символа-разделителя используйте пробел ')
-String_Min_and_Max(a)
+print(String_Min_and_Max(a))
