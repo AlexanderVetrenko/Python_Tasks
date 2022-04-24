@@ -20,8 +20,8 @@ def get_kef(my_str):
     kef_1 = int(my_str.split('x')[0])
     return kef_1, kef_2, kef_3
 
-data1 = open(r'E:\GeekEducation\Python\Python Tasks\TaskPlus\Numbr1.txt','r')
-data2 = open(r'E:\GeekEducation\Python\Python Tasks\TaskPlus\Numbr2.txt','r')
+data1 = open(r'E:\GeekEducation\Python\Python Tasks\Task34\Numbr1.txt','r')
+data2 = open(r'E:\GeekEducation\Python\Python Tasks\Task34\Numbr2.txt','r')
 
 a = get_kef(data1.read())
 b = get_kef(data2.read())
@@ -33,12 +33,13 @@ summ = []
 for i in range(3):
     summ.append(a[i] + b[i])
 
-data3 = open(r'E:\GeekEducation\Python\Python Tasks\TaskPlus\Numbr3.txt','w')
+data3 = open(r'E:\GeekEducation\Python\Python Tasks\Task34\Numbr3.txt','w')
 
 for i in range(1,3):
     if summ[i] > 0:
-        summ[i] = '+' + str(summ[i])
-data3.writelines(f'{summ[0]}x**2 {summ[1]}x {summ[2]}')        
+        summ[i] = '+ ' + str(summ[i])
+data3.writelines(f'{summ[0]}x**2 {summ[1]}x {summ[2]}')
+data3.close()
 
 
 
