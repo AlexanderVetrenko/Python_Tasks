@@ -29,8 +29,6 @@ def Mltplctn(a,b, filename):
                 s = int(ln)
     return k*s
 
-#help(enumerate)
-#exit()
 print('Укажите параметр N для последовательности')
 a= int(input())
 fn = 'E:\GeekEducation\Python\Python Tasks\Task17\File.txt'
