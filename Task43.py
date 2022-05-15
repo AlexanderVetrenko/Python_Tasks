@@ -1,19 +1,11 @@
-# Напишите программу, удаляющую из текста все слова содержащие "абв".
+# Дана последовательность чисел. Получить список уникальных элементов заданной последовательности.
+# Пример: [1, 2, 3, 5, 1, 5, 3, 10] => [2, 10]
 
-def Del_Word(s):
-    f = True
-    for i in range(len(s)-2):
-        if (s[i]+s[i+1]+s[i+2]) == 'абв':
-            f =  False
-    return f
-
-
-print('Введите текст ')
+print('Введите последовательность целых чисел одной строкой. Разделитель - пробел')
 a = input()
+dt = a.split()
+dt = list(map(int, dt ))
 
-a = a.split()
-print(a)
-a = list(filter(Del_Word,a))
-print(a)
-
+unique = [item for item in dt if dt.count(item) == 1]
+print(unique)
 
