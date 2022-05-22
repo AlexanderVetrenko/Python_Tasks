@@ -3,8 +3,10 @@
     "",
     "\\Calc",
     "\\Calc\\DataBase",
-    "\\Calc\\UI"
+    "\\Calc\\Main_Logic",
+    "\\Calc\\UI",
+    "\\Task42"
   ],
-  "SelectedNode": "\\Calc\\DataBase\\keeper.py",
+  "SelectedNode": "\\Calc\\main.py",
   "PreviewInSolutionExplorer": false
 }
