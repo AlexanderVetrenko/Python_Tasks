@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Calc",
+    "\\Calc\\DataBase",
+    "\\Calc\\UI"
   ],
-  "SelectedNode": "\\Task42",
+  "SelectedNode": "\\Calc\\DataBase\\keeper.py",
   "PreviewInSolutionExplorer": false
 }
