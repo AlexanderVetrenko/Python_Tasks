@@ -1,12 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Calc",
-    "\\Calc\\DataBase",
-    "\\Calc\\Main_Logic",
-    "\\Calc\\UI",
-    "\\Task42"
+    ""
   ],
-  "SelectedNode": "\\Calc\\main.py",
+  "SelectedNode": "\\LibInstall.py",
   "PreviewInSolutionExplorer": false
 }
