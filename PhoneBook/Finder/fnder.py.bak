@@ -1,0 +1,13 @@
+#def fnd_srnm(srnm):
+body = []
+res = []
+with open(r'E:\GeekEducation\Python\Python Tasks\PhoneBook\DataBase\Data.txt','r') as dt:
+    body = dt.readlines()
+    print(body)
+    for line in body:
+        if 'Иванов' in line:
+            res.append(line)
+
+print(res)
+
+

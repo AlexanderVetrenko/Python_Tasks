@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Calc\\DataBase",
+    "\\Calc\\UI",
+    "\\PhoneBook",
+    "\\PhoneBook\\DataBase",
+    "\\PhoneBook\\Finder"
   ],
-  "SelectedNode": "\\LibInstall.py",
+  "SelectedNode": "\\PhoneBook\\Finder\\fnder.py",
   "PreviewInSolutionExplorer": false
 }
