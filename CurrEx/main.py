@@ -20,7 +20,8 @@ def Curr_Conv():
     req_ob = requests.get(main_url)
 
     result = req_ob.json()
-    print(result)
+    with open(r'E:\GeekEducation\Python\Python Tasks\CurrEx\info.csv','a') as dt:
+        dt.write(reuslt)
 
     Exchange_Rate = float(result["Realtime Currency Exchange Rate"]
                            ['5. Exchange Rate'])
