@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PhoneBook"
+    "\\CurrEx",
+    "\\PhoneBook",
+    "\\PhoneBook\\DataBase"
   ],
-  "SelectedNode": "\\PhoneBook\\Main.py",
+  "SelectedNode": "\\CurrEx\\main.py",
   "PreviewInSolutionExplorer": false
 }

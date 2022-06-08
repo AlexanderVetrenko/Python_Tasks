@@ -15,16 +15,13 @@ def Curr_Conv():
 
     base_url = r"https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE"
 
-    main_url = base_url + "&from_currency =" + currency1 + "&to_currency =" + currency2 + "&apikey =" + api_key
+    main_url = base_url + "&from_currency=" + currency1 + "&to_currency=" + currency2 + "&apikey=" + api_key
 
     req_ob = requests.get(main_url)
 
     result = req_ob.json()
-    with open(r'E:\GeekEducation\Python\Python Tasks\CurrEx\info.csv','a') as dt:
-        dt.write(reuslt)
-
-    Exchange_Rate = float(result["Realtime Currency Exchange Rate"]
-                           ['5. Exchange Rate'])
+    
+    Exchange_Rate = float(result['Realtime Currency Exchange Rate']['5. Exchange Rate'])
 
     n = float (amount_curr1.get())
     m = round (n * Exchange_Rate, 3 )
