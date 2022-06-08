@@ -1,6 +1,6 @@
 def Sav_Dt(matr, f):
     if f == 1:
-        with open(r'E:\GeekEducation\Python\Python Tasks\PhoneBook\DataBase\Data.txt','w') as dt:
+        with open(r'E:\GeekEducation\Python\Python Tasks\PhoneBook\DataBase\Data.txt','a') as dt:
             for i in range(len(matr)):
                 for item in matr[i]:
                     dt.write(item)
@@ -8,7 +8,7 @@ def Sav_Dt(matr, f):
                 dt.write(';')
                 dt.write('\n')
     elif f == 2:
-        with open(r'E:\GeekEducation\Python\Python Tasks\PhoneBook\DataBase\Data.csv','w') as dt:
+        with open(r'E:\GeekEducation\Python\Python Tasks\PhoneBook\DataBase\Data.csv','a') as dt:
             for i in range(len(matr)):
                 for item in matr[i]:
                     dt.write(item)

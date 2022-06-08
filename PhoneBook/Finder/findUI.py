@@ -1,7 +1,9 @@
 def Fnder_SrNM():
-    a = input('Введите фамилию:')
+    a = input('Р’РІРµРґРёС‚Рµ С„Р°РјРёР»РёСЋ: ')
     return a
 
-def Fnder_Nmbr():
-    a = input('Введите номер телефона:')
-    return a
+def Print_Search_Res(matrx):
+    if matrx ==[]: print('РџРѕ Р’Р°С€РµРјСѓ Р·Р°РїСЂРѕСЃСѓ РЅРёС‡РµРіРѕ РЅРµ РЅР°Р№РґРµРЅРѕ')
+    else: print('Р РµР·СѓР»СЊС‚Р°С‚С‹ РїРѕРёСЃРєР°: ')
+    for item in matrx:
+        print(item)
