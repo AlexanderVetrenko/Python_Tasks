@@ -4,8 +4,6 @@ from tkinter import messagebox
 
 def clicked():  
     global txt1, txt2, txt3
-    #global txt2
-    #global txt3
     link = txt1.get()
     path = txt2.get()
     nm = txt3.get()
